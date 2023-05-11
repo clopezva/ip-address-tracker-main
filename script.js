@@ -58,7 +58,7 @@ async function getLocationfromApi(location){
         var polygon = L.polygon([
             [latitude, longitude],
             [latitude, longitude],
-            [latitude, longitude]
+            [latitude, longitude] 
         ]).addTo(map);
         marker.bindPopup("ip").openPopup(); 
         circle.bindPopup("I am a circle.");
